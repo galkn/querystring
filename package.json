@@ -1,0 +1,16 @@
+{
+  "name": "querystring",
+  "version": "0.0.1",
+  "description": "Provides methods for converting an object into string representation, and vice versa.",
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "1.17.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-assert": "~1.0.0"
+  }
+}
