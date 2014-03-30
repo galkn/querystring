@@ -1,7 +1,7 @@
 {
-  "name": "querystring",
+  "name": "parseqs",
   "version": "0.0.1",
-  "description": "Provides methods for converting an object into string representation, and vice versa.",
+  "description": "Provides methods for parsing a query string into an object, and vice versa.",
   "scripts": {
     "test": "make test"
   },
