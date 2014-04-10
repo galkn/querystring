@@ -6,7 +6,7 @@
  * @api private
  */
 
-exports.qs = function (obj) {
+exports.encode = function (obj) {
   var str = '';
 
   for (var i in obj) {
@@ -26,7 +26,7 @@ exports.qs = function (obj) {
  * @api private
  */
 
-exports.qsParse = function(qs){
+exports.decode = function(qs){
   var qry = {};
   var pairs = qs.split('&');
   for (var i = 0, l = pairs.length; i < l; i++) {
