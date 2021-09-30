@@ -2,6 +2,12 @@
   "name": "parseqs",
   "version": "0.0.6",
   "description": "Provides methods for parsing a query string into an object, and vice versa.",
+  "main": "index.js",
+  "module": "./esm/index.js",
+  "exports": {
+    "import": "./esm/index.js",
+    "require": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/get/querystring.git"
@@ -15,5 +21,9 @@
     "better-assert": "~1.0.0"
   },
   "author": "Gal Koren",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "esm/"
+  ]
 }
